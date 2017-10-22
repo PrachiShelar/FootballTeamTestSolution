@@ -26,16 +26,19 @@ namespace FootballTeam.Helpers
                 DataTable data = ReadCsvFile.GetDataTabletFromCSVFile(stream);
                 
                 //Validate csv file
-                bool validationCheck = ValidateFile.ValidateDataFromFile(data);
+                if(data != null)
+                {
+                    bool validationCheck = ValidateFile.ValidateDataFromFile(data);
 
-                if (validationCheck)
-                    return DataTableToList.GetDataTableToList<FTeam>(data);
-                else
-                    return null;
+                    if (validationCheck)
+                        return DataTableToList.GetDataTableToList<FTeam>(data);
+                    else
+                        return null;
+                }
             }
             catch (Exception ex)
             {
-                ConsoleLogger.Log("Validate File as per requirements");
+                ConsoleLogger.Log("Validate File as per requirements" + ex.InnerException);
             }
              
             return null;

@@ -51,7 +51,7 @@
     <Compile Include="Models\FTeam.cs" />
     <Compile Include="Models\IData.cs" />
     <Compile Include="Helpers\ReadCsvFile.cs" />
-    <Compile Include="Models\FteamRepository.cs" />
+    <Compile Include="Models\FTeamRepository.cs" />
     <Compile Include="Helpers\ValidateFile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

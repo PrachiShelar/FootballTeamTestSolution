@@ -15,9 +15,13 @@ namespace FootballTeam.Helpers
         public static DataTable GetDataTabletFromCSVFile(Stream stream)
         {
             DataTable csvData = new DataTable();
-
+            
             try
             {
+                if (stream == null)
+                {
+                    return null;
+                }
                 using (TextFieldParser csvReader = new TextFieldParser(stream))
                 {
                     csvReader.SetDelimiters(new string[] { "," });

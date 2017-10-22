@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace FootballTeam.models
 {
-    public static class FteamRepository
+    public static class FTeamRepository
     {
         /// <summary>
         /// This method fetch team with absolute score difference

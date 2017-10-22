@@ -10,3 +10,8 @@ D:\TAL\FETestSolution\FootballTeam\bin\Debug\FootballTeam.pdb
 D:\TAL\FETestSolution\FootballTeam\obj\Debug\FootballTeam.exe
 D:\TAL\FETestSolution\FootballTeam\obj\Debug\FootballTeam.pdb
 D:\TAL\FETestSolution\FootballTeam\obj\Debug\FootballTeam.csprojResolveAssemblyReference.cache
+D:\TAL\FootballTeamTestSolution\FootballTeam\bin\Debug\FootballTeam.exe.config
+D:\TAL\FootballTeamTestSolution\FootballTeam\bin\Debug\FootballTeam.exe
+D:\TAL\FootballTeamTestSolution\FootballTeam\bin\Debug\FootballTeam.pdb
+D:\TAL\FootballTeamTestSolution\FootballTeam\obj\Debug\FootballTeam.exe
+D:\TAL\FootballTeamTestSolution\FootballTeam\obj\Debug\FootballTeam.pdb

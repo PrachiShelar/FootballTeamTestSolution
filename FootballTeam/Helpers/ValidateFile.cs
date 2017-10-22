@@ -6,6 +6,11 @@ namespace FootballTeam.Helpers
 {
     public class ValidateFile
     {
+        /// <summary>
+        /// This method is to validate Csv Data column
+        /// </summary>
+        /// <param name="csvData"></param>
+        /// <returns>Return success or fail validation check</returns>
         public static bool ValidateDataFromFile(DataTable csvData)
         {
             //Check colum count and Column names of file are valid

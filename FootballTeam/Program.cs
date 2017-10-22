@@ -19,7 +19,7 @@ namespace FootballTeam
                 if (footballteamData != null && footballteamData.Any())
                 {
                     //FTeam teamDetails;
-                    FTeam teamDetails = FteamRepository.GetTeamNameWithScore(footballteamData);
+                    FTeam teamDetails = FTeamRepository.GetTeamNameWithScore(footballteamData);
 
                     //Printing Team name without name and number.
                     string teamName = teamDetails.Team.Split('.')[1];

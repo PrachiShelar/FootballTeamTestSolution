@@ -49,11 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FootballTeamTest.cs" />
+    <Compile Include="ValidateTest.cs" />
+    <Compile Include="ScoreTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Files\dummyFootball.csv" />
+    <EmbeddedResource Include="Files\dummyFootballFailure.csv" />
+    <EmbeddedResource Include="Files\dummyFootballSuccess.csv" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
