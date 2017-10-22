@@ -13,7 +13,6 @@ namespace FootballFileTest
         [TestMethod]
         public void TestValidateSuccessMethod()
         {
-            List<string> columnsNames = new List<string>() { "Team", "P", "W", "L", "D", "F", "A", "Pts" };
             //Get embedded resource file
             var resourceName = "FootballFileTest.Files.dummyFootballSuccess.csv";
             var assembly = Assembly.GetExecutingAssembly();
@@ -22,7 +21,7 @@ namespace FootballFileTest
             // Read embeddded resource file into datatable.
             DataTable FteamdataTable = ReadCsvFile.GetDataTabletFromCSVFile(stream);
            
-            //Check headers and header count
+            //Check headers
             bool validationCheck = ValidateFile.ValidateDataFromFile(FteamdataTable);
 
             Assert.AreEqual(true, validationCheck);
@@ -31,7 +30,6 @@ namespace FootballFileTest
         [TestMethod]
         public void TestValidateFailMethod()
         {
-            List<string> columnsNames = new List<string>() { "Team", "P", "W", "L", "D", "F", "A", "Pts" };
             //Get embedded resource file
             var resourceName = "FootballFileTest.Files.dummyFootballFailure.csv";
             var assembly = Assembly.GetExecutingAssembly();
