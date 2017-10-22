@@ -1,0 +1,12 @@
+D:\TAL\FootballTeam\FootballTeam\bin\Debug\FootballTeam.exe.config
+D:\TAL\FootballTeam\FootballTeam\bin\Debug\FootballTeam.exe
+D:\TAL\FootballTeam\FootballTeam\bin\Debug\FootballTeam.pdb
+D:\TAL\FootballTeam\FootballTeam\obj\Debug\FootballTeam.exe
+D:\TAL\FootballTeam\FootballTeam\obj\Debug\FootballTeam.pdb
+D:\TAL\FootballTeam\FootballTeam\obj\Debug\FootballTeam.csprojResolveAssemblyReference.cache
+D:\TAL\FETestSolution\FootballTeam\bin\Debug\FootballTeam.exe.config
+D:\TAL\FETestSolution\FootballTeam\bin\Debug\FootballTeam.exe
+D:\TAL\FETestSolution\FootballTeam\bin\Debug\FootballTeam.pdb
+D:\TAL\FETestSolution\FootballTeam\obj\Debug\FootballTeam.exe
+D:\TAL\FETestSolution\FootballTeam\obj\Debug\FootballTeam.pdb
+D:\TAL\FETestSolution\FootballTeam\obj\Debug\FootballTeam.csprojResolveAssemblyReference.cache
